@@ -31,7 +31,7 @@ public class TenantPackUserLogAspect {
     private BaseCommonService baseCommonService;
 
     @Pointcut("@annotation(org.jeecg.modules.aop.TenantLog)")
-    public void tenantLogPointCut() {
+    public void tenantLogPointCut()  {
 
     }
 
